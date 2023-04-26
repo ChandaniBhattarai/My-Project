@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 242, 230);
+}
+
+header {
+    background-color: #007EC8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0 auto 0 1em;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+nav li {
+    margin-left: 2rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a i {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+main {
+    padding: 2rem;
+}
+
+
+footer {
+    background-color: #007EC8;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons li {
+    margin: 0 10px;
+}
+
+.social-icons li a {
+    display: inline-block;
+    color: #fbf9f9;
+    font-size: 20px;
+    transition: color 0.2s ease-in-out;
+}
+
+.social-icons li a:hover {
+    color: #666;
+}
+
+.fab {
+    font-size: inherit;
+}
+
+
+/* Page-specific styles */
+
+h1,
+h2 {
+    margin-top: 0;
+}
+
+form label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="contact number"],
+form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form input[type="submit"] {
+    background-color: #ef5659;
+    color: #fff;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav li {
+        margin: 0.5rem 0;
+    }
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image-container {
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.caption {
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #b90c6e;
+}
+
+.mainheader img {
+    width: 6%;
+    height: auto;
+    margin: 0%;
+    background-color: blue;
+    position: relative;
+}
